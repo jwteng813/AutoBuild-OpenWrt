@@ -76,8 +76,8 @@ jobs:
     - name: Import external feeds
       working-directory: ./openwrt
       run: |
-    #    git clone https://github.com/Lienol/openwrt-package package/lienol
-       git clone https://github.com/tty228/luci-app-serverchan.git package/lean
+        git clone https://github.com/Lienol/openwrt-package package/lienol
+        git clone https://github.com/tty228/luci-app-serverchan.git package/lean
 
     - name: Configuration Customization - Build_x86_64
       env:
